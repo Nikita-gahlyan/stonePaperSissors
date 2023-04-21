@@ -1,0 +1,173 @@
+body {
+    margin: 2%;
+    padding: 0%;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(hotel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-size: 100% 100%;  */
+    /* this is the property of css3  */
+    background-attachment: fixed;
+    /* background attactment property is used to control the scrolling of an image in the background */
+}
+
+#fontcss {
+    font-family: 'Notable', sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    /* 1em=16pixel(px) */
+    font-style: italic;
+    font-weight: bold;
+}
+
+#textcss {
+    color: red;
+    letter-spacing: 5px;
+    word-spacing: 4px;
+    direction: ltr;
+    text-indent: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* unvisited link  */
+
+a:link {
+    color: brown;
+}
+
+
+/* visited link  */
+
+a:visited {
+    color: greenyellow;
+}
+
+
+/* mouse hover  */
+
+a:hover {
+    color: lightpink;
+}
+
+
+/* selected  */
+
+a:active {
+    color: fuchsia;
+}
+
+.bordercss {
+    width: 500px;
+    height: 300px;
+    background-color: lawngreen;
+    /* border-width: 5px; */
+    /* border-color: blueviolet; */
+    /* border-style: solid; */
+    /* style may be dotted dased  */
+    border: 5px burlywood dashed;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+.boxmodel {
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+
+input {
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    /* padding:5px 5px 5px 5px  */
+    /* padding:5px  */
+    margin-top: 20px;
+    margin-left: 10px;
+    /* margin:10px */
+}
+
+.overflow {
+    width: 170px;
+    height: 180px;
+    border: 2px solid red;
+    /* overflow: hidden; */
+    overflow: auto;
+    /* overflow-y: scroll; */
+}
+
+.father {
+    width: 500px;
+    height: 230px;
+    background-color: palevioletred;
+    position: relative;
+}
+
+.child1 {
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    position: absolute;
+    /* left: 0; */
+    z-index: 1;
+}
+
+.child2 {
+    width: 100px;
+    height: 40px;
+    background-color: sandybrown;
+    position: absolute;
+    /* right: 0; */
+    z-index: 4;
+}
+
+.child3 {
+    width: 100px;
+    height: 40px;
+    background-color: palegreen;
+    position: absolute;
+    /* bottom: 0; */
+    z-index: 7;
+}
+
+.child4 {
+    width: 100px;
+    height: 40px;
+    background-color: hotpink;
+    position: absolute;
+    /* bottom: 0; */
+    /* right: 0; */
+    z-index: 3;
+}
+
+.cssfloat {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo {
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+    text-align: center;
+    background-color: orange;
+}
+
+.background {
+    krnfknke
+}
